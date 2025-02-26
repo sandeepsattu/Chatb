@@ -3,16 +3,6 @@
 
 # In[11]:
 
-
-get_ipython().system('pip install fitz')
-get_ipython().system('pip install openai')
-get_ipython().system('pip install SpeechRecognition pyaudio')
-get_ipython().system('pip install mysql-connector-python')
-
-
-# In[ ]:
-
-
 from flask import Flask, request, jsonify
 import fitz  # PyMuPDF
 import openai
