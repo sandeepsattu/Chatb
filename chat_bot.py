@@ -2,6 +2,7 @@
 # coding: utf-8
 
 # In[11]:
+pip install flask
 pip install fitz
 pip install openai
 pip install SpeechRecognition pyaudio
