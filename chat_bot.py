@@ -2,6 +2,10 @@
 # coding: utf-8
 
 # In[11]:
+!pip install fitz
+!pip install openai
+!pip install SpeechRecognition pyaudio
+!pip install mysql-connector-python
 
 from flask import Flask, request, jsonify
 import fitz  # PyMuPDF
